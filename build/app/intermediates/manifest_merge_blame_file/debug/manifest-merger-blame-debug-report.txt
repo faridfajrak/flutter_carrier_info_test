@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uniqcast.carrier.info.test.carrier_info_test"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:3:5-79
+16-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:3:22-76
+17    <uses-permission android:name="android.permission.READ_BASIC_PHONE_STATE" />
+17-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:4:5-81
+17-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:4:22-78
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:5:5-75
+18-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:5:22-72
+19    <uses-permission android:name="android.permission.READ_SMS" />
+19-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:6:5-67
+19-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:6:22-64
+20    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+20-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:7:5-77
+20-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:7:22-74
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:8:5-81
+21-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:8:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:9:5-79
+22-->/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/android/app/src/main/AndroidManifest.xml:9:22-76
+23
+24    <application
+25        android:name="android.app.Application"
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.6.0] /Users/farid/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+29        android:label="carrier_info_test" >
+30        <activity
+31            android:name="com.uniqcast.carrier.info.test.carrier_info_test.MainActivity"
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33            android:exported="true"
+34            android:hardwareAccelerated="true"
+35            android:launchMode="singleTop"
+36            android:theme="@style/LaunchTheme"
+37            android:windowSoftInputMode="adjustResize" >
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+46                android:name="io.flutter.embedding.android.NormalTheme"
+47                android:resource="@style/NormalTheme" />
+48
+49            <intent-filter>
+50                <action android:name="android.intent.action.MAIN" />
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+60            android:name="flutterEmbedding"
+61            android:value="2" />
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] /Users/farid/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0-beta04] /Users/farid/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] /Users/farid/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] /Users/farid/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0-beta04] /Users/farid/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] /Users/farid/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+69    </application>
+70
+71</manifest>

@@ -1,0 +1,4 @@
+#Tue Mar 28 15:41:27 IRDT 2023
+base.0=/Users/farid/Desktop/projects/uniqCast/flutter_carrier_info_test/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
